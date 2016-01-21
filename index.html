@@ -6,16 +6,15 @@
 <body>
 <img id='illuminati' src='http://vignette4.wikia.nocookie.net/villains/images/7/78/Illuminati-Logo.png'/>
 <script>
-    function blazeIt(isHidden){
-        var i = document.getElementById('illuminati');
-        if(isHidden){
-            i.style.display = 'visible';
-        }else{
-            i.style.display = 'none';
-        }
-        setTimeout(function(){blazeIt(!isHidden);}, 100);
-    }
-    blazeIt(false);
+	function blazeIt(i, isHidden){
+		if(isHidden){
+			i.style.display = 'initial';
+		}else{
+			i.style.display = 'none';
+		}
+		setTimeout(function(){blazeIt(i, !isHidden);}, 100);
+	}
+	blazeIt(document.getElementById('illuminati'), false);
 </script>
 </body>
 </html>
