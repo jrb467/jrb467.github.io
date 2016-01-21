@@ -4,6 +4,18 @@
 <title>Jacob Bigenwald</title>
 </head>
 <body>
-<marquee>;-]</marquee>
+<img id='illuminati' src='http://vignette4.wikia.nocookie.net/villains/images/7/78/Illuminati-Logo.png'/>
+<script>
+    function blazeIt(isHidden){
+        var i = document.getElementById('illuminati');
+        if(isHidden){
+            i.style.display = 'visible';
+        }else{
+            i.style.display = 'none';
+        }
+        setTimeout(function(){blazeIt(!isHidden);}, 100);
+    }
+    blazeIt(false);
+</script>
 </body>
 </html>
