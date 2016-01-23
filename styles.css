@@ -1,0 +1,12 @@
+#sidebar, #content {
+  display: inline-block;
+  height: 100%; }
+
+#sidebar {
+  width: 33%;
+  max-width: 15em; }
+
+#content {
+  min-width: 67%; }
+
+/*# sourceMappingURL=styles.css.map */
