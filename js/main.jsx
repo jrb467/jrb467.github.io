@@ -6,5 +6,5 @@ import Parent from './parent.jsx';
 ReactDOM.render(
     <Parent />
     ,
-    document.getElementById('container')
+    document.getElementById('root')
 );

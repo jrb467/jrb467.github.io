@@ -3,16 +3,16 @@
     height: 100%;
 }
 
-#sidebar, #content {
-    display: inline-block;
-    height: 100%;
+#container {
+    display: flex;
 }
 
 #sidebar {
-    width: 33%;
-    max-width: 15em;
+    flex-grow: 0;
 }
 
 #content {
-    min-width: 67%;
+    display: inline-block;
+    height: 100%;
+    flex-grow: 1;
 }
