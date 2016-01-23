@@ -1,0 +1,6 @@
+#! /bin/bash
+
+browserify js/* -o bundle.js -t [babelify]
+uglify -s bundle.js -o bundle.min.js
+sass --scss scss/* styles.css
+
