@@ -6,7 +6,7 @@ export default React.createClass({
     },
     render: function(){
         return (
-            <div class='data-container'>
+            <div className='data-container'>
                 <div id='sidebar'>
                     <div className='ui inverted vertical menu'>
                         <a className='item' data-tab='about'>About</a>
