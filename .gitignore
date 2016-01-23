@@ -2,3 +2,5 @@ node_modules/*
 package.json
 sortofbutnotreallyagulpfile.txt
 .babelrc
+bundle.js
+.sass-cache/*
