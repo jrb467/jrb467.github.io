@@ -1,3 +1,6 @@
+#container {
+  height: 100%; }
+
 #sidebar, #content {
   display: inline-block;
   height: 100%; }
