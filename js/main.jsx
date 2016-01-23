@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Parent from './parent.jsx';
+
 ReactDOM.render(
-    <div>yo dawg</div>
+    <Parent />
     ,
     document.getElementById('container')
 );
