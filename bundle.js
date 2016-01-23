@@ -33,11 +33,55 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _react2.default.createClass({
     displayName: 'parent',
 
+    componentDidMount: function componentDidMount() {
+        $('.menu .item').tab();
+    },
     render: function render() {
         return _react2.default.createElement(
             'div',
             null,
-            'whut whut'
+            _react2.default.createElement(
+                'div',
+                { id: 'sidebar' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'ui inverted vertical menu' },
+                    _react2.default.createElement(
+                        'a',
+                        { className: 'item', 'data-tab': 'about' },
+                        'About'
+                    ),
+                    _react2.default.createElement(
+                        'a',
+                        { className: 'item', 'data-tab': 'projects' },
+                        'Projects'
+                    ),
+                    _react2.default.createElement(
+                        'a',
+                        { className: 'item', 'data-tab': 'contact' },
+                        'Contact'
+                    )
+                )
+            ),
+            _react2.default.createElement(
+                'div',
+                { id: 'content' },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'ui tab', 'data-tab': 'about' },
+                    'This is the about section'
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'ui tab', 'data-tab': 'projects' },
+                    'This is the projects section'
+                ),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'ui tab', 'data-tab': 'contact' },
+                    'This is the contact section'
+                )
+            )
         );
     }
 });
