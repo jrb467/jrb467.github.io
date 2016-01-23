@@ -1,0 +1,23 @@
+{
+  "name": "github-profile",
+  "version": "1.0.0",
+  "description": "It's my github prof. page",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrb467/jrb467.github.io.git"
+  },
+  "keywords": [
+    "github",
+    "profile"
+  ],
+  "author": "Jacob Bigenwald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrb467/jrb467.github.io/issues"
+  },
+  "homepage": "https://github.com/jrb467/jrb467.github.io#readme"
+}
